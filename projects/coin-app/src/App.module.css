@@ -1,0 +1,50 @@
+@keyframes spinY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.coin {
+  font-size: 50px; /* 아이콘 크기 */
+  animation: spinY 2s linear infinite;
+  transform-style: preserve-3d; /* 3D 효과 유지 */
+  display: inline-block;
+}
+
+body {
+  background-color: black;
+  padding: 20px;
+}
+body > div {
+  background-color: rgba(147, 147, 145, 0.103);
+  border-radius: 50px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.title {
+  text-align: center;
+  text-shadow: 5px 3px 5px rgba(255, 255, 255, 0.386);
+}
+.title:active {
+  color: yellow;
+}
+input,
+select {
+  width: 90%;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 20px;
+}
+.bar {
+  border-top: 2px solid rgb(255, 255, 255);
+  width: 90%;
+  margin: 10px;
+}

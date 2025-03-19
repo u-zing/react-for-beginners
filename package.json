@@ -5,7 +5,7 @@
   "description": "React for beginners monorepo",
   "scripts": {
     "todo-list": "cd projects/todo-list && npm start",
-    "movie-app": "cd projects/movie-app && npm start",
+    "coin-app": "cd projects/coin-app && npm start",
     "weather-app": "cd projects/weather-app && npm start"
   },
   "dependencies": {
